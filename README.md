@@ -12,7 +12,7 @@ $ npm install -g react-native-cli
 ```
 
 2. **Install Xcode** (ios sim)
-3. Open Project (terminal)
+3. **Open Project** (terminal)
 
 ```sh
 $ react-native init ProjectName

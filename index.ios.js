@@ -9,23 +9,18 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  TextInput,
 } from 'react-native';
 
 export default class TipCalculator extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
+        <Text>
+          Total Amount:
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <TextInput style={styles.textInput}></TextInput>
       </View>
     );
   }
@@ -38,15 +33,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
+  textInput: {
+    textAlign: 'left',
     color: '#333333',
-    marginBottom: 5,
+    margin: 5,
+    height: 50,
+    borderColor: '#60b7e2',
+    borderWidth: 1,
   },
 });
 
