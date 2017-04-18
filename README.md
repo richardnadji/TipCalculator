@@ -8,6 +8,6 @@ react native tutorial
   iv. npm install -g react-native-cli
 2. Install Xcode (ios sim)
 3. Open Project (terminal)
-  i. react-native init ProjectName
-  ii. cd ProjectName
-  iii. react-native run-ios
+..i. react-native init ProjectName
+..ii. cd ProjectName
+..iii. react-native run-ios
