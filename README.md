@@ -2,8 +2,8 @@
 react native tutorial
 ## Steps
 1. **Installation** [react-native](http://facebook.github.io/react-native)
-⋅⋅ 1. install homebrew [homebrew](https://brew.sh/index_nl.html)
-⋅⋅ 2. install node, watchman, react native command line interface
+  * install homebrew [homebrew](https://brew.sh/index_nl.html)
+  * install node, watchman, react native command line interface
 
 ```sh
 $ brew install node
