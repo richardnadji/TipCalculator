@@ -2,12 +2,12 @@
 react native tutorial
 **Steps**
 1. Installation (http://facebook.github.io/react-native)
-  i. install homebrew (https://brew.sh/index_nl.html)
-  ii. brew install node
-  iii. brew install watchman
-  iv. npm install -g react-native-cli
+..1. install homebrew (https://brew.sh/index_nl.html)
+..2. brew install node
+..3. brew install watchman
+..4. npm install -g react-native-cli
 2. Install Xcode (ios sim)
 3. Open Project (terminal)
-..i. react-native init ProjectName
-..ii. cd ProjectName
-..iii. react-native run-ios
+..1. react-native init ProjectName
+..2. cd ProjectName
+..3. react-native run-ios
